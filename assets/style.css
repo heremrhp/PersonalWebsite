@@ -1,0 +1,75 @@
+.maintext{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -70px;
+}
+
+h1{
+    font-size: 320%;
+    font-family: candara;
+    margin: auto;
+    color: #FF3131;
+}
+.text{
+    font-family: monospace;
+    padding-top: -20%;
+    font-size: 122%;
+    color: azure;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+
+
+@media (min-width: 755px) {
+    .maintext{
+        padding-top: 20%;
+    }
+
+    .cr{
+        
+        font-size: 14px;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    position: static;
+    padding-top: 150px;
+}
+
+.cr{
+    margin-bottom: 0;
+    text-align: center;
+    color: blanchedalmond;
+
+}
+.socials{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: 3%;
+}
+
+@media only screen and (max-width: 768px) 
+{
+    .maintext{
+        padding-top: 180px;
+    }
+
+    footer{
+        padding-top: 140px;
+    }
+}
